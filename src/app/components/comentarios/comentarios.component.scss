@@ -1,0 +1,41 @@
+.comentario-card {
+  width: 90%;
+  border-radius: 30px; /* Bordes más sutiles para un toque más elegante */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra más profunda para darle elegancia */
+  background-color: rgba(255, 255, 255, 0.85); /* Fondo translúcido suave */
+  margin: 20px auto; /* Centrado automático para que el card esté centrado */
+  padding: 20px;
+  font-family: "Noto Sans JP", sans-serif; /* Tipografía japonesa para mantener la coherencia */
+  background-size: cover;
+  text-align: center; /* Centrado de todo el contenido */
+}
+
+.comentario-texto {
+  font-size: 1.6em; 
+  color: #4b1f1f; 
+  margin-bottom: 15px;
+  line-height: 1.6; 
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); 
+}
+
+.comentario-autor {
+  font-size: 1.3em; 
+  color: #8a4b3e; 
+  text-align: right;
+  font-style: italic; 
+  margin-top: 10px;
+  position: relative;
+}
+
+.comentario-autor::before {
+  font-size: 1.5em; /* Tamaño del icono */
+  position: absolute;
+  left: -30px;
+  top: 0;
+}
+
+.comentario-card:hover {
+  transform: scale(1.02); /* Efecto de aumento al pasar el ratón */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra más fuerte para resaltar el card */
+  transition: all 0.3s ease; /* Transición suave */
+}

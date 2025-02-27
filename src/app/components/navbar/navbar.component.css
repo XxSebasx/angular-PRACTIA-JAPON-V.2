@@ -1,0 +1,67 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+::ng-deep mat-toolbar {
+  background-color: #d32f2f !important;
+  border-radius: 0 0 5px 5px !important;
+  padding: 10px 20px;
+}
+
+#button-container {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-right: 50px;
+}
+
+button {
+  width: 120px;
+  height: 35px;
+  border-radius: 18px;
+  background: linear-gradient(45deg, #ffffff, #e4e2e2);
+  font-weight: 600;
+  color: #d32f2f;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #e4e2e2, #ffffff);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  animation: shake 0.5s;
+}
+
+#linkindex {
+  text-decoration: none;
+  color: white;
+  font-family: 'Sawarabi Mincho', serif;
+  font-size: 1.5rem;
+}
+
+img {
+  width: 50px;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding-top: 5px;
+}
+
+@media (max-width: 412px) {
+  button {
+    max-width: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  button {
+    max-width: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  button {
+    max-width: 50px;
+  }
+}

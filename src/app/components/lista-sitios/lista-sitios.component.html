@@ -1,0 +1,25 @@
+<app-navbar></app-navbar>
+<h3>LUGARES MÁGICOS DE JAPÓN</h3>
+<div id="home-container">
+    <app-comentarios></app-comentarios>
+    <div class="grid-container">
+        <mat-card *ngFor="let sitio of sitios" class="site-card">
+            <img mat-card-image [src]="sitio.imageUrl" [alt]="sitio.name">
+            <mat-card-header>
+                <mat-card-title>{{ sitio.name }}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <p>{{ sitio.description }}</p>
+            </mat-card-content>
+            <mat-card-actions>
+                <button mat-button class="ver-mas" [routerLink]="['/detalle', sitio.id]">Ver más</button>
+                <span class="rating">⭐ {{ getAverageRating(sitio) }}</span>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+    <button mat-raised-button class="generate-pdf" (click)="generatePDF()">Generar resumen PDF </button>
+</div>
+<div class="ranking">
+    <app-ranking-lugares></app-ranking-lugares>
+</div>
+<app-footer></app-footer>

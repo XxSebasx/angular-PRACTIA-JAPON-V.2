@@ -1,0 +1,14 @@
+
+<mat-toolbar>
+  <a href="/" id="linkindex"><span>Japan Company </span></a>
+  <a href="https://institucional.cadiz.es/portada_2017">
+    <img src="../../../assets/imgs/japanCompany.jpg" alt="Logo" id="logo">
+  </a>
+  <span class="spacer"></span>
+  <div id="button-container">
+    <button *ngIf="!isAuthenticated" mat-button (click)="goToLogin()">Login</button>
+    <button *ngIf="!isAuthenticated" mat-button (click)="goToRegister()">Registrarse</button>
+    <button *ngIf="isAuthenticated" mat-button (click)="logout()">Logout</button>
+    <button *ngIf="role === 'administrador'" mat-button (click)="addNewSite()">Añadir Sitio</button>
+  </div>
+</mat-toolbar>

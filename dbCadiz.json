@@ -1,0 +1,188 @@
+{
+  "sitios": [
+    {
+      "name": "Templo Senso-ji",
+      "description": "El templo budista más antiguo de Tokio, conocido por su impresionante puerta Kaminarimon.",
+      "parrafo1": "El Templo Senso-ji es un lugar de peregrinación y turismo, famoso por su arquitectura y su mercado Nakamise.",
+      "parrafo2": "Horario: Abierto todos los días de 6:00 a 17:00.",
+      "imageUrl": "assets/imgs/templo.jpg",
+      "imageGallery": [
+        "./assets/imgs/templo.jpg",
+        "./assets/imgs/temploSJ2.jpeg",
+        "./assets/imgs/temploSJ3.jpeg",
+        "./assets/imgs/temploSJ4.jpeg",
+        "./assets/imgs/temploSJ5.jpeg"
+      ],
+      "rating": [
+        "3"
+      ],
+      "comments": [
+        "Un lugar increíble para visitar.",
+        "Muy concurrido pero vale la pena.",
+        "Hermoso templo."
+      ],
+      "commentUser": [
+        "Yuki",
+        "Hiroshi",
+        "Aiko"
+      ],
+      "id": "tokyo_sensoji"
+    },
+    {
+      "name": "Monte Fuji",
+      "description": "El pico más alto de Japón y un símbolo icónico del país.",
+      "parrafo1": "El Monte Fuji es un volcán activo y una de las montañas más famosas del mundo.",
+      "parrafo2": "Ideal para escalar y disfrutar de vistas panorámicas.",
+      "imageUrl": "assets/imgs/monte-fuji.jpg",
+      "imageGallery": [
+        "assets/imgs/monte-fuji.jpg",
+        "assets/imgs/montefuji2.jpg",
+        "assets/imgs/montefuji3.jpg",
+        "assets/imgs/montefuji4.jpg",
+        "assets/imgs/montefuji5.jpeg"
+      ],
+      "rating": [
+        "5"
+      ],
+      "comments": [
+        "Una experiencia única."
+      ],
+      "commentUser": [
+        "Kenji"
+      ],
+      "id": "fuji_mountain"
+    },
+    {
+      "name": "Castillo de Himeji",
+      "description": "Uno de los castillos más hermosos y mejor conservados de Japón.",
+      "parrafo1": "Conocido como la 'Garza Blanca' por su elegante apariencia.",
+      "parrafo2": "Un sitio del Patrimonio Mundial de la UNESCO.",
+      "imageUrl": "assets/imgs/castillo.jpg",
+      "imageGallery": [
+        "assets/imgs/castillo.jpg",
+        "assets/imgs/CSI2.jpeg",
+        "assets/imgs/CSI3.jpg",
+        "assets/imgs/CSI4.jpg",
+        "assets/imgs/CSI5.jpg"
+      ],
+      "rating": [
+        "4"
+      ],
+      "comments": [
+        "Un castillo impresionante."
+      ],
+      "commentUser": [
+        "Takashi"
+      ],
+      "id": "himeji_castle"
+    },
+    {
+      "name": "Santuario Fushimi Inari-taisha",
+      "description": "Famoso por sus miles de torii rojos que forman senderos a través del bosque.",
+      "parrafo1": "Un importante santuario sintoísta en Kioto.",
+      "parrafo2": "Conocido por sus senderos de torii que conducen a la cima del monte Inari.",
+      "imageUrl": "assets/imgs/santuario.jpg",
+      "imageGallery": [
+        "assets/imgs/img2-1.jpg",
+        "assets/imgs/img2-2.jpg",
+        "assets/imgs/img2-3.jpg",
+        "assets/imgs/img2-4.jpg",
+        "assets/imgs/img2-5.jpg",
+        "assets/imgs/img2-6.jpg",
+        "assets/imgs/img2-7.jpg",
+        "assets/imgs/img2-8.jpg",
+        "assets/imgs/img2-9.jpg"
+      ],
+      "rating": [
+        "2"
+      ],
+      "comments": [
+        "Un lugar mágico."
+      ],
+      "commentUser": [
+        "Sakura"
+      ],
+      "id": "fushimi_inari"
+    },
+    {
+      "name": "Parque de los Ciervos de Nara",
+      "description": "Un parque famoso por sus ciervos que deambulan libremente.",
+      "parrafo1": "Los ciervos de Nara son considerados mensajeros de los dioses en la religión sintoísta.",
+      "parrafo2": "Un lugar popular para interactuar con los ciervos y disfrutar de la naturaleza.",
+      "imageUrl": "assets/imgs/ciervo.jpg",
+      "imageGallery": [
+        "assets/imgs/ciervo.jpg",
+        "assets/imgs/parque-nara.jpg",
+        "assets/imgs/parque-nara3.jpg",
+        "assets/imgs/parque_nara_4.jpg",
+        "assets/imgs/parque-nara5.jpg"
+      ],
+      "rating": [
+        "5"
+      ],
+      "comments": [
+        "Los ciervos son adorables."
+      ],
+      "commentUser": [
+        "Mika"
+      ],
+      "id": "nara_park"
+    },
+    {
+      "name": "Santuario Itsukushima",
+      "description": "Famoso por su torii flotante en la isla de Miyajima.",
+      "parrafo1": "Un sitio del Patrimonio Mundial de la UNESCO.",
+      "parrafo2": "Conocido por su torii que parece flotar en el agua durante la marea alta.",
+      "imageUrl": "assets/imgs/templo-agua.jpg",
+      "imageGallery": [
+        "assets/imgs/templo-agua.jpg",
+        "assets/imgs/templo-agua2.jpg",
+        "assets/imgs/templo-agua3.jpg",
+        "assets/imgs/templo-agua4.jpg",
+        "assets/imgs/templo-agua5.jpg"
+      ],
+      "rating": [],
+      "comments": [],
+      "commentUser": [],
+      "id": "itsukushima_shrine"
+    }
+  ],
+  "users": [
+    {
+      "id": "yuki",
+      "firstName": "Yuki",
+      "lastName": "Tanaka",
+      "comunidad": "Kanto",
+      "email": "yuki.tanaka@example.com",
+      "role": "administrador",
+      "birthday": "1990-05-15",
+      "gender": "femenino",
+      "phone": "08012345678",
+      "password": "password123"
+    },
+    {
+      "id": "kenji",
+      "firstName": "Kenji",
+      "lastName": "Yamamoto",
+      "email": "kenji.yamamoto@example.com",
+      "password": "$2b$10$mk85o4Zgelvj6o/gcCwozOi0LFxVoYLBElrpQow.1yX7Wv2U7.k1u",
+      "phone": "08087654321",
+      "birthday": "1985-11-20",
+      "gender": "masculino",
+      "role": "usuario",
+      "comunidad": "Kansai"
+    },
+    {
+      "id": "aiko",
+      "firstName": "Aiko",
+      "lastName": "Suzuki",
+      "email": "aiko.suzuki@example.com",
+      "password": "$2b$10$B1RffDhWgw5i3IU47pphPOus6m/pjx0mPnvgVN8UKu2BtOoEgwYD6",
+      "phone": "08011223344",
+      "birthday": "1995-07-30",
+      "gender": "femenino",
+      "role": "usuario",
+      "comunidad": "Chubu"
+    }
+  ]
+}

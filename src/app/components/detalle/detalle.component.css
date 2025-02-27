@@ -1,0 +1,153 @@
+.detalle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: url('../../../assets/imgs/japanese-pattern.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ff3366; /* Color vibrante tipo japonés */
+  color: white;
+  border: none;
+  padding: 13px; /* Aumenté el tamaño */
+  cursor: pointer;
+  font-size: 2rem; /* Aumenté el tamaño de la flecha */
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra suave para dar más profundidad */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.carousel button:hover {
+  background-color: #ff6699; /* Efecto hover con color más claro */
+  transform: translateY(-50%) scale(1.2); /* Efecto de agrandado al pasar el ratón */
+}
+
+.carousel button:first-of-type {
+  left: 20px; /* Desplazado para mayor espacio */
+  transform: rotate(180deg); /* Rotar la flecha para darle un toque más dinámico */
+}
+
+.carousel button:last-of-type {
+  right: 20px; /* Desplazado para mayor espacio */
+}
+
+mat-card {
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+mat-card-header {
+  background-color: #d32f2f;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+mat-card-title {
+  font-size: 1.8rem;
+  font-family: 'Sawarabi Mincho', serif;
+}
+
+mat-card-content {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+mat-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+h3 {
+  color: #d32f2f;
+  font-size: 1.5rem;
+  font-family: 'Sawarabi Mincho', serif;
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+input[type="number"] {
+  padding: 5px;
+  font-size: 1rem;
+  width: 60px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 15px;
+  background-color: #d32f2f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Noto Sans JP', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b71c1c;
+}
+
+ng-template {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #f44336;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.comment {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.comment-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+}
